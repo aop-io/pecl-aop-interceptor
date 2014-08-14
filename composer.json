@@ -1,0 +1,21 @@
+{
+    "name": "aop-io/pecl-aop-interceptor",
+    "description": "PHP code interceptor for PHP-AOP, based on AOP PHP extension (pecl aop-beta). Provides an abstraction layer of the PHP extension 'PECL AOP', with many features to go further in the handling of the AOP with PHP.",
+    "keywords": ["aop", "aop-php", "lib", "aop-io-interceptor", "pecl", "patch monkey"],
+    "license": "MIT",
+    "homepage": "http://aop.io",
+
+    "authors": [
+        {
+            "name": "Nicolas Tallefourtane",
+            "email": "dev@nicolab.net",
+            "homepage": "http://nicolab.net"
+        }
+    ],
+    "require": {
+      "php": ">=5.4"
+    },
+    "autoload": {
+      "psr-0": {"PeclAop": "src/"}
+    }
+}
